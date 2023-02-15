@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/9e9ad91aa4af4b03b1723eae67d264d1/artifacts
+end_time: 1676416965350
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9e9ad91aa4af4b03b1723eae67d264d1
+run_name: mercurial-fish-45
+run_uuid: 9e9ad91aa4af4b03b1723eae67d264d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676416928695
+status: 3
+tags: []
+user_id: daniel

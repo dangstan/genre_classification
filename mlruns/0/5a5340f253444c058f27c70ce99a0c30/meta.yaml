@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/5a5340f253444c058f27c70ce99a0c30/artifacts
+end_time: 1676332133054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5a5340f253444c058f27c70ce99a0c30
+run_name: nimble-chimp-652
+run_uuid: 5a5340f253444c058f27c70ce99a0c30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676332120884
+status: 3
+tags: []
+user_id: daniel

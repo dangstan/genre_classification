@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/5b7d573a651d499c9544efa8c822fc93/artifacts
+end_time: 1676332458850
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b7d573a651d499c9544efa8c822fc93
+run_name: classy-ray-571
+run_uuid: 5b7d573a651d499c9544efa8c822fc93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676332447071
+status: 3
+tags: []
+user_id: daniel

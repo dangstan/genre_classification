@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/aedaa448a908457687bd35e2254df1ac/artifacts
+end_time: 1676332485513
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aedaa448a908457687bd35e2254df1ac
+run_name: hilarious-moth-449
+run_uuid: aedaa448a908457687bd35e2254df1ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676332469769
+status: 3
+tags: []
+user_id: daniel

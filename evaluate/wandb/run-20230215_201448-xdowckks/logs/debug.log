@@ -1,0 +1,25 @@
+2023-02-15 20:14:48,815 INFO    MainThread:18889 [wandb_setup.py:_flush():68] Configure stats pid to 18889
+2023-02-15 20:14:48,815 INFO    MainThread:18889 [wandb_setup.py:_flush():68] Loading settings from /home/daniel/.config/wandb/settings
+2023-02-15 20:14:48,815 INFO    MainThread:18889 [wandb_setup.py:_flush():68] Loading settings from /home/daniel/PycharmProjects/genre_classification/evaluate/wandb/settings
+2023-02-15 20:14:48,815 INFO    MainThread:18889 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'run_group': 'dev', 'project': 'genre_classification_prod', '_require_service': 'True'}
+2023-02-15 20:14:48,815 INFO    MainThread:18889 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'evaluate/run.py', 'program': 'run.py'}
+2023-02-15 20:14:48,815 INFO    MainThread:18889 [wandb_init.py:_log_setup():492] Logging user logs to /home/daniel/PycharmProjects/genre_classification/evaluate/wandb/run-20230215_201448-xdowckks/logs/debug.log
+2023-02-15 20:14:48,815 INFO    MainThread:18889 [wandb_init.py:_log_setup():493] Logging internal logs to /home/daniel/PycharmProjects/genre_classification/evaluate/wandb/run-20230215_201448-xdowckks/logs/debug-internal.log
+2023-02-15 20:14:48,818 INFO    MainThread:18889 [wandb_init.py:init():532] calling init triggers
+2023-02-15 20:14:48,818 INFO    MainThread:18889 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2023-02-15 20:14:48,819 INFO    MainThread:18889 [wandb_init.py:init():588] starting backend
+2023-02-15 20:14:48,820 INFO    MainThread:18889 [wandb_init.py:init():592] setting up manager
+2023-02-15 20:14:48,824 INFO    MainThread:18889 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-15 20:14:48,827 INFO    MainThread:18889 [wandb_init.py:init():599] backend started and connected
+2023-02-15 20:14:48,833 INFO    MainThread:18889 [wandb_init.py:init():687] updated telemetry
+2023-02-15 20:14:48,844 INFO    MainThread:18889 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-15 20:14:49,351 INFO    MainThread:18889 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-15 20:14:49,427 INFO    MainThread:18889 [wandb_run.py:_on_init():2143] got version response 
+2023-02-15 20:14:49,427 INFO    MainThread:18889 [wandb_init.py:init():775] starting run threads in backend
+2023-02-15 20:14:50,702 INFO    MainThread:18889 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-15 20:14:50,708 INFO    MainThread:18889 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-15 20:14:50,709 INFO    MainThread:18889 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-15 20:14:50,709 INFO    MainThread:18889 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-15 20:14:50,709 INFO    MainThread:18889 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-15 20:15:00,753 WARNING MsgRouterThr:18889 [router.py:message_loop():77] message_loop has been closed

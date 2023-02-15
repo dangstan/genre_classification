@@ -26,7 +26,7 @@ def go(args):
     y_test = X_test.pop("genre")
 
     logger.info("Downloading and reading the exported model")
-    model_export_path = run.use_artifact(args.model_export).download()
+    model_export_path = run.use_artifact(args.model_export).download('./artifacts/random_forest_export_v23')
 
     pipe = mlflow.sklearn.load_model(model_export_path)
 

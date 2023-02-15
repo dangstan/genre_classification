@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/1f567ef2a8104edbafccca9aff493f7b/artifacts
+end_time: 1676419379495
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1f567ef2a8104edbafccca9aff493f7b
+run_name: silent-lynx-684
+run_uuid: 1f567ef2a8104edbafccca9aff493f7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676419365828
+status: 3
+tags: []
+user_id: daniel

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/e7938aaa657e495a8afaa5488855a2c8/artifacts
+end_time: 1676331613902
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e7938aaa657e495a8afaa5488855a2c8
+run_name: languid-deer-469
+run_uuid: e7938aaa657e495a8afaa5488855a2c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676331601889
+status: 4
+tags: []
+user_id: daniel

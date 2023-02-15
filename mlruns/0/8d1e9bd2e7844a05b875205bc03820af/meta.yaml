@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/8d1e9bd2e7844a05b875205bc03820af/artifacts
+end_time: 1676332363583
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d1e9bd2e7844a05b875205bc03820af
+run_name: adorable-sloth-550
+run_uuid: 8d1e9bd2e7844a05b875205bc03820af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676332343783
+status: 3
+tags: []
+user_id: daniel

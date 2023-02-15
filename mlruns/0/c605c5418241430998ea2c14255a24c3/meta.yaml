@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/c605c5418241430998ea2c14255a24c3/artifacts
+end_time: 1676419413880
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c605c5418241430998ea2c14255a24c3
+run_name: calm-snipe-975
+run_uuid: c605c5418241430998ea2c14255a24c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676419401622
+status: 3
+tags: []
+user_id: daniel

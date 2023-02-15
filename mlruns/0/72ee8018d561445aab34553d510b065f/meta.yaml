@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/72ee8018d561445aab34553d510b065f/artifacts
+end_time: 1676331330918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72ee8018d561445aab34553d510b065f
+run_name: adventurous-sow-503
+run_uuid: 72ee8018d561445aab34553d510b065f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676331307858
+status: 4
+tags: []
+user_id: daniel

@@ -1,0 +1,16 @@
+2023-02-14 20:54:00,109 Downloading and reading test artifact
+2023-02-14 20:54:01,440 Extracting target from dataframe
+2023-02-14 20:54:01,440 Downloading and reading the exported model
+[34m[1mwandb[39m[22m:   5 of 5 files downloaded.
+Traceback (most recent call last):
+  File "run.py", line 83, in <module>
+    go(args)
+  File "run.py", line 31, in go
+    pipe = mlflow.sklearn.load_model(model_export_path)
+  File "/home/daniel/.local/lib/python3.8/site-packages/mlflow/sklearn/__init__.py", line 471, in load_model
+    local_model_path = _download_artifact_from_uri(artifact_uri=model_uri)
+  File "/home/daniel/.local/lib/python3.8/site-packages/mlflow/tracking/artifact_utils.py", line 83, in _download_artifact_from_uri
+    return get_artifact_repository(artifact_uri=root_uri).download_artifacts(
+  File "/home/daniel/.local/lib/python3.8/site-packages/mlflow/store/artifact/local_artifact_repo.py", line 79, in download_artifacts
+    raise IOError("No such file or directory: '{}'".format(local_artifact_path))
+OSError: No such file or directory: './artifacts/model_export%3Av0'

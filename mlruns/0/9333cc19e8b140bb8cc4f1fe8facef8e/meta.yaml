@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/9333cc19e8b140bb8cc4f1fe8facef8e/artifacts
+end_time: 1676417151010
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9333cc19e8b140bb8cc4f1fe8facef8e
+run_name: masked-mule-580
+run_uuid: 9333cc19e8b140bb8cc4f1fe8facef8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676416965364
+status: 3
+tags: []
+user_id: daniel

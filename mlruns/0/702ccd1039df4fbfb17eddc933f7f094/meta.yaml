@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/702ccd1039df4fbfb17eddc933f7f094/artifacts
+end_time: 1676417232571
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 702ccd1039df4fbfb17eddc933f7f094
+run_name: valuable-stag-52
+run_uuid: 702ccd1039df4fbfb17eddc933f7f094
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676417151026
+status: 3
+tags: []
+user_id: daniel

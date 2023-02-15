@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/cf5707bdfc7e44bfa10608e85c306a29/artifacts
+end_time: 1676332332742
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf5707bdfc7e44bfa10608e85c306a29
+run_name: caring-wren-863
+run_uuid: cf5707bdfc7e44bfa10608e85c306a29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676332133064
+status: 3
+tags: []
+user_id: daniel

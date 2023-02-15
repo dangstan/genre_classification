@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/62424df8f9b440e7a689cd779a4b7e52/artifacts
+end_time: 1676332447056
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 62424df8f9b440e7a689cd779a4b7e52
+run_name: big-robin-513
+run_uuid: 62424df8f9b440e7a689cd779a4b7e52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676332435980
+status: 3
+tags: []
+user_id: daniel

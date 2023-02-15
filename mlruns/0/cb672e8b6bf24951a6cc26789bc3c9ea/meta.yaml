@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/cb672e8b6bf24951a6cc26789bc3c9ea/artifacts
+end_time: 1676502838562
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb672e8b6bf24951a6cc26789bc3c9ea
+run_name: big-perch-829
+run_uuid: cb672e8b6bf24951a6cc26789bc3c9ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676502826198
+status: 3
+tags: []
+user_id: daniel

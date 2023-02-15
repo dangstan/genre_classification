@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/82d66134e74745849f9c9b3f0097278b/artifacts
+end_time: 1676418489532
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 82d66134e74745849f9c9b3f0097278b
+run_name: efficient-shoat-179
+run_uuid: 82d66134e74745849f9c9b3f0097278b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676417313208
+status: 3
+tags: []
+user_id: daniel

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/d4db4f94737e4a70abd89b45646fe989/artifacts
+end_time: 1676502809865
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d4db4f94737e4a70abd89b45646fe989
+run_name: welcoming-duck-724
+run_uuid: d4db4f94737e4a70abd89b45646fe989
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676502790443
+status: 3
+tags: []
+user_id: daniel

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/03fb6f84db3046269498804cb0d2f349/artifacts
+end_time: 1676331109536
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 03fb6f84db3046269498804cb0d2f349
+run_uuid: 03fb6f84db3046269498804cb0d2f349
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676330874845
+status: 4
+tags: []
+user_id: daniel

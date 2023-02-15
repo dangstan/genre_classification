@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/daa9c649bd474ba0861e51efecfd5fde/artifacts
+end_time: 1676331601877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: daa9c649bd474ba0861e51efecfd5fde
+run_name: shivering-goat-619
+run_uuid: daa9c649bd474ba0861e51efecfd5fde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676331582588
+status: 3
+tags: []
+user_id: daniel

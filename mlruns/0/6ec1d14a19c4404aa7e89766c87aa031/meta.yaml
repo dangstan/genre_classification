@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/6ec1d14a19c4404aa7e89766c87aa031/artifacts
+end_time: 1676419436352
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ec1d14a19c4404aa7e89766c87aa031
+run_name: legendary-hare-689
+run_uuid: 6ec1d14a19c4404aa7e89766c87aa031
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676419413899
+status: 3
+tags: []
+user_id: daniel

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/9ae607eb50ab447e81661ea1c6d486eb/artifacts
+end_time: 1676416104564
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ae607eb50ab447e81661ea1c6d486eb
+run_name: intelligent-gull-677
+run_uuid: 9ae607eb50ab447e81661ea1c6d486eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676416091389
+status: 3
+tags: []
+user_id: daniel

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/79ef6066b70641c5b14e05bcdcb1d9ec/artifacts
+end_time: 1676332487326
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79ef6066b70641c5b14e05bcdcb1d9ec
+run_name: charming-elk-540
+run_uuid: 79ef6066b70641c5b14e05bcdcb1d9ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676332485532
+status: 4
+tags: []
+user_id: daniel

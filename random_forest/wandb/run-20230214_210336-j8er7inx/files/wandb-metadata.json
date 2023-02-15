@@ -1,0 +1,130 @@
+{
+    "os": "Linux-5.15.0-60-generic-x86_64-with-glibc2.10",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-02-15T00:03:37.479375",
+    "startedAt": "2023-02-15T00:03:36.554824",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/home/daniel/PycharmProjects/genre_classification/outputs/2023-02-14/21-02-45/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/dangstan/genre_classification.git",
+        "commit": "4a2518d19eb9ecb90313aa20160a1d9ebb25e59b"
+    },
+    "email": "dangstan@github.com",
+    "root": "/home/daniel/PycharmProjects/genre_classification",
+    "host": "dangstan",
+    "username": "daniel",
+    "executable": "/home/daniel/miniconda3/envs/mlflow-12733841ebac004e3a16595ad2956972c090f2fd/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2135.7515625,
+        "min": 2200.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2128.106,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1939.003,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2113.01,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2104.252,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2036.016,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2117.517,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2061.051,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2368.753,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2097.208,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2131.07,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1936.151,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2194.566,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2194.485,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2193.636,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2189.255,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2190.296,
+            "min": 2200.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "total": 447.6293258666992,
+        "used": 179.71870040893555
+    },
+    "memory": {
+        "total": 46.940425872802734
+    }
+}

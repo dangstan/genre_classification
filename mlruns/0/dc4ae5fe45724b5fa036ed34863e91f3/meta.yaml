@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/dc4ae5fe45724b5fa036ed34863e91f3/artifacts
+end_time: 1676418851523
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc4ae5fe45724b5fa036ed34863e91f3
+run_name: luxuriant-gull-114
+run_uuid: dc4ae5fe45724b5fa036ed34863e91f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676418489545
+status: 4
+tags: []
+user_id: daniel

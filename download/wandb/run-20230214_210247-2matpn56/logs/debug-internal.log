@@ -1,0 +1,177 @@
+2023-02-14 21:02:47,655 INFO    StreamThr :41600 [internal.py:wandb_internal():87] W&B internal server running at pid: 41600, started at: 2023-02-14 21:02:47.655064
+2023-02-14 21:02:47,656 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: status
+2023-02-14 21:02:47,659 INFO    WriterThread:41600 [datastore.py:open_for_write():85] open: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/run-2matpn56.wandb
+2023-02-14 21:02:47,659 DEBUG   SenderThread:41600 [sender.py:send():336] send: header
+2023-02-14 21:02:47,660 DEBUG   SenderThread:41600 [sender.py:send():336] send: run
+2023-02-14 21:02:48,088 INFO    SenderThread:41600 [dir_watcher.py:__init__():216] watching files in: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files
+2023-02-14 21:02:48,089 INFO    SenderThread:41600 [sender.py:_start_run_threads():1067] run started: 2matpn56 with start time 1676419367.654325
+2023-02-14 21:02:48,089 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: summary_record
+2023-02-14 21:02:48,089 INFO    SenderThread:41600 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-14 21:02:48,090 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: check_version
+2023-02-14 21:02:48,090 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: check_version
+2023-02-14 21:02:48,195 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: run_start
+2023-02-14 21:02:48,200 ERROR   HandlerThread:41600 [gpu.py:is_available():351] Error initializing NVML: Driver Not Loaded
+2023-02-14 21:02:48,201 DEBUG   HandlerThread:41600 [system_info.py:__init__():31] System info init
+2023-02-14 21:02:48,201 DEBUG   HandlerThread:41600 [system_info.py:__init__():46] System info init done
+2023-02-14 21:02:48,201 INFO    HandlerThread:41600 [system_monitor.py:start():151] Starting system monitor
+2023-02-14 21:02:48,201 INFO    SystemMonitor:41600 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-14 21:02:48,201 INFO    HandlerThread:41600 [system_monitor.py:probe():172] Collecting system info
+2023-02-14 21:02:48,201 INFO    SystemMonitor:41600 [interfaces.py:start():168] Started cpu
+2023-02-14 21:02:48,201 INFO    SystemMonitor:41600 [interfaces.py:start():168] Started disk
+2023-02-14 21:02:48,202 INFO    SystemMonitor:41600 [interfaces.py:start():168] Started memory
+2023-02-14 21:02:48,202 INFO    SystemMonitor:41600 [interfaces.py:start():168] Started network
+2023-02-14 21:02:48,271 DEBUG   HandlerThread:41600 [system_info.py:probe():195] Probing system
+2023-02-14 21:02:48,272 DEBUG   HandlerThread:41600 [system_info.py:_probe_git():180] Probing git
+2023-02-14 21:02:48,275 DEBUG   HandlerThread:41600 [system_info.py:_probe_git():188] Probing git done
+2023-02-14 21:02:48,275 DEBUG   HandlerThread:41600 [system_info.py:probe():241] Probing system done
+2023-02-14 21:02:48,275 DEBUG   HandlerThread:41600 [system_monitor.py:probe():181] {'os': 'Linux-5.15.0-60-generic-x86_64-with-glibc2.31', 'python': '3.11.0', 'heartbeatAt': '2023-02-15T00:02:48.271409', 'startedAt': '2023-02-15T00:02:47.649853', 'docker': None, 'cuda': None, 'args': ('--file_url', 'https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true', '--artifact_name', 'raw_data.parquet', '--artifact_type', 'raw_data', '--artifact_description', 'Data as downloaded'), 'state': 'running', 'program': '/home/daniel/PycharmProjects/genre_classification/download/download_data.py', 'codePath': 'download/download_data.py', 'git': {'remote': 'https://github.com/dangstan/genre_classification.git', 'commit': '4a2518d19eb9ecb90313aa20160a1d9ebb25e59b'}, 'email': 'dangstan@github.com', 'root': '/home/daniel/PycharmProjects/genre_classification', 'host': 'dangstan', 'username': 'daniel', 'executable': '/home/daniel/miniconda3/envs/mlflow-a1d43872affffcfe32bc63f817b37a020f200f83/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2388.7270625, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 3086.32, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3800.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3017.73, 'min': 2200.0, 'max': 3800.0}, {'current': 2181.708, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2406.346, 'min': 2200.0, 'max': 3800.0}, {'current': 3029.552, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}], 'disk': {'total': 447.6293258666992, 'used': 179.73233032226562}, 'memory': {'total': 46.940425872802734}}
+2023-02-14 21:02:48,275 INFO    HandlerThread:41600 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-14 21:02:48,275 INFO    HandlerThread:41600 [system_monitor.py:probe():185] Publishing system info
+2023-02-14 21:02:48,275 DEBUG   HandlerThread:41600 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-14 21:02:48,275 DEBUG   HandlerThread:41600 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-14 21:02:48,275 DEBUG   HandlerThread:41600 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-14 21:02:48,831 DEBUG   HandlerThread:41600 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-14 21:02:48,832 INFO    HandlerThread:41600 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-14 21:02:48,833 DEBUG   SenderThread:41600 [sender.py:send():336] send: files
+2023-02-14 21:02:48,833 INFO    SenderThread:41600 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-14 21:02:48,838 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-14 21:02:48,838 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: stop_status
+2023-02-14 21:02:49,037 DEBUG   SenderThread:41600 [sender.py:send():336] send: telemetry
+2023-02-14 21:02:49,090 INFO    Thread-13 :41600 [dir_watcher.py:_on_file_created():275] file/dir created: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/wandb-summary.json
+2023-02-14 21:02:49,090 INFO    Thread-13 :41600 [dir_watcher.py:_on_file_created():275] file/dir created: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/wandb-metadata.json
+2023-02-14 21:02:49,090 INFO    Thread-13 :41600 [dir_watcher.py:_on_file_created():275] file/dir created: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/conda-environment.yaml
+2023-02-14 21:02:49,090 INFO    Thread-13 :41600 [dir_watcher.py:_on_file_created():275] file/dir created: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/requirements.txt
+2023-02-14 21:02:49,501 INFO    wandb-upload_0:41600 [upload_job.py:push():138] Uploaded file /tmp/tmp7z5ib1jswandb/85fj34c0-wandb-metadata.json
+2023-02-14 21:02:50,089 INFO    Thread-13 :41600 [dir_watcher.py:_on_file_created():275] file/dir created: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/output.log
+2023-02-14 21:02:50,206 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: log_artifact
+2023-02-14 21:02:50,206 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: log_artifact
+2023-02-14 21:02:51,403 INFO    SenderThread:41600 [sender.py:send_request_log_artifact():1381] logged artifact raw_data.parquet - {'id': 'QXJ0aWZhY3Q6MzY1NjE2MjQ2', 'digest': 'd07cfe0c8bd86971c9f85bce13c85266', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'raw_data.parquet', 'alias': 'latest'}, {'artifactCollectionName': 'raw_data.parquet', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyODU3OTA5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzY1NjE2MjQ2', 'versionIndex': 0}}, 'version': 'v0'}
+2023-02-14 21:02:51,916 DEBUG   SenderThread:41600 [sender.py:send():336] send: telemetry
+2023-02-14 21:02:51,917 DEBUG   SenderThread:41600 [sender.py:send():336] send: exit
+2023-02-14 21:02:51,917 INFO    SenderThread:41600 [sender.py:send_exit():559] handling exit code: 0
+2023-02-14 21:02:51,917 INFO    SenderThread:41600 [sender.py:send_exit():561] handling runtime: 3
+2023-02-14 21:02:51,917 INFO    SenderThread:41600 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-14 21:02:51,918 INFO    SenderThread:41600 [sender.py:send_exit():567] send defer
+2023-02-14 21:02:51,918 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:51,918 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-14 21:02:51,918 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:51,918 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-02-14 21:02:51,918 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 1
+2023-02-14 21:02:51,918 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:51,918 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-14 21:02:51,918 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:51,919 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-02-14 21:02:51,919 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 2
+2023-02-14 21:02:51,919 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:51,919 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-14 21:02:51,919 INFO    HandlerThread:41600 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-14 21:02:51,919 DEBUG   SystemMonitor:41600 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-14 21:02:51,919 INFO    HandlerThread:41600 [interfaces.py:finish():175] Joined cpu
+2023-02-14 21:02:51,919 DEBUG   SystemMonitor:41600 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-14 21:02:51,919 INFO    HandlerThread:41600 [interfaces.py:finish():175] Joined disk
+2023-02-14 21:02:51,919 DEBUG   SystemMonitor:41600 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-14 21:02:51,920 INFO    HandlerThread:41600 [interfaces.py:finish():175] Joined memory
+2023-02-14 21:02:51,920 INFO    HandlerThread:41600 [interfaces.py:finish():175] Joined network
+2023-02-14 21:02:51,920 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:51,920 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-02-14 21:02:51,920 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 3
+2023-02-14 21:02:51,921 DEBUG   SenderThread:41600 [sender.py:send():336] send: stats
+2023-02-14 21:02:51,921 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:51,921 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-14 21:02:51,921 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:51,921 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-02-14 21:02:51,921 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 4
+2023-02-14 21:02:51,921 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:51,921 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-14 21:02:51,921 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:51,921 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-02-14 21:02:51,921 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 5
+2023-02-14 21:02:51,921 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:51,922 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-14 21:02:51,922 DEBUG   SenderThread:41600 [sender.py:send():336] send: summary
+2023-02-14 21:02:51,922 INFO    SenderThread:41600 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-14 21:02:51,922 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:51,922 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-02-14 21:02:51,922 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 6
+2023-02-14 21:02:51,922 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:51,922 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-14 21:02:51,922 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:51,922 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-02-14 21:02:51,925 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: status_report
+2023-02-14 21:02:52,090 INFO    Thread-13 :41600 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/wandb-summary.json
+2023-02-14 21:02:52,090 INFO    Thread-13 :41600 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/output.log
+2023-02-14 21:02:52,141 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 7
+2023-02-14 21:02:52,141 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:52,141 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-14 21:02:52,142 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:52,142 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-02-14 21:02:52,917 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-14 21:02:53,090 INFO    Thread-13 :41600 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/config.yaml
+2023-02-14 21:02:53,982 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 8
+2023-02-14 21:02:53,982 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: poll_exit
+2023-02-14 21:02:53,982 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:53,982 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-14 21:02:53,983 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:53,983 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-02-14 21:02:53,986 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 9
+2023-02-14 21:02:53,986 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:53,986 DEBUG   SenderThread:41600 [sender.py:send():336] send: artifact
+2023-02-14 21:02:53,986 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-14 21:02:54,090 INFO    Thread-13 :41600 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/output.log
+2023-02-14 21:02:55,045 INFO    SenderThread:41600 [sender.py:send_artifact():1417] sent artifact job-https___github.com_dangstan_genre_classification.git_download_download_data.py - {'id': 'QXJ0aWZhY3Q6MzY2OTMzNTQ1', 'digest': '6817720753ae5db1f7b61cb5de0498ff', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_dangstan_genre_classification.git_download_download_data.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_dangstan_genre_classification.git_download_download_data.py', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyODU3OTI4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzY2OTMzNTQ1', 'versionIndex': 1}}, 'version': 'v1'}
+2023-02-14 21:02:55,045 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:55,045 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-02-14 21:02:55,045 INFO    SenderThread:41600 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-14 21:02:55,091 INFO    SenderThread:41600 [dir_watcher.py:finish():392] scan: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files
+2023-02-14 21:02:55,091 INFO    SenderThread:41600 [dir_watcher.py:finish():406] scan save: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/conda-environment.yaml conda-environment.yaml
+2023-02-14 21:02:55,092 INFO    SenderThread:41600 [dir_watcher.py:finish():406] scan save: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/wandb-summary.json wandb-summary.json
+2023-02-14 21:02:55,092 INFO    SenderThread:41600 [dir_watcher.py:finish():406] scan save: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/wandb-metadata.json wandb-metadata.json
+2023-02-14 21:02:55,092 INFO    SenderThread:41600 [dir_watcher.py:finish():406] scan save: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/config.yaml config.yaml
+2023-02-14 21:02:55,094 INFO    SenderThread:41600 [dir_watcher.py:finish():406] scan save: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/requirements.txt requirements.txt
+2023-02-14 21:02:55,094 INFO    SenderThread:41600 [dir_watcher.py:finish():406] scan save: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/output.log output.log
+2023-02-14 21:02:55,095 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 10
+2023-02-14 21:02:55,097 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:55,097 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-14 21:02:55,097 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:55,097 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-02-14 21:02:55,097 INFO    SenderThread:41600 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-14 21:02:55,675 INFO    wandb-upload_1:41600 [upload_job.py:push():138] Uploaded file /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/conda-environment.yaml
+2023-02-14 21:02:55,789 INFO    wandb-upload_3:41600 [upload_job.py:push():138] Uploaded file /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/requirements.txt
+2023-02-14 21:02:55,806 INFO    wandb-upload_0:41600 [upload_job.py:push():138] Uploaded file /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/wandb-summary.json
+2023-02-14 21:02:55,809 INFO    wandb-upload_4:41600 [upload_job.py:push():138] Uploaded file /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/output.log
+2023-02-14 21:02:55,832 INFO    wandb-upload_2:41600 [upload_job.py:push():138] Uploaded file /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/files/config.yaml
+2023-02-14 21:02:56,032 INFO    Thread-12 (_thread_body):41600 [sender.py:transition_state():587] send defer: 11
+2023-02-14 21:02:56,032 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:56,032 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-14 21:02:56,032 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:56,032 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-02-14 21:02:56,032 INFO    SenderThread:41600 [file_pusher.py:join():167] waiting for file pusher
+2023-02-14 21:02:56,033 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 12
+2023-02-14 21:02:56,033 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:56,033 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-14 21:02:56,033 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:56,033 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-02-14 21:02:56,202 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 13
+2023-02-14 21:02:56,202 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:56,202 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-14 21:02:56,203 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:56,203 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-02-14 21:02:56,203 INFO    SenderThread:41600 [sender.py:transition_state():587] send defer: 14
+2023-02-14 21:02:56,203 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: defer
+2023-02-14 21:02:56,203 INFO    HandlerThread:41600 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-14 21:02:56,203 DEBUG   SenderThread:41600 [sender.py:send():336] send: final
+2023-02-14 21:02:56,203 DEBUG   SenderThread:41600 [sender.py:send():336] send: footer
+2023-02-14 21:02:56,203 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: defer
+2023-02-14 21:02:56,203 INFO    SenderThread:41600 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-02-14 21:02:56,204 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-14 21:02:56,204 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: server_info
+2023-02-14 21:02:56,204 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-14 21:02:56,204 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: poll_exit
+2023-02-14 21:02:56,204 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-14 21:02:56,205 DEBUG   SenderThread:41600 [sender.py:send_request():363] send_request: server_info
+2023-02-14 21:02:56,404 DEBUG   HandlerThread:41600 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-14 21:02:56,404 INFO    HandlerThread:41600 [handler.py:finish():841] shutting down handler
+2023-02-14 21:02:57,205 INFO    WriterThread:41600 [datastore.py:close():299] close: /home/daniel/PycharmProjects/genre_classification/download/wandb/run-20230214_210247-2matpn56/run-2matpn56.wandb
+2023-02-14 21:02:57,403 INFO    SenderThread:41600 [sender.py:finish():1493] shutting down sender
+2023-02-14 21:02:57,403 INFO    SenderThread:41600 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-14 21:02:57,404 INFO    SenderThread:41600 [file_pusher.py:join():167] waiting for file pusher

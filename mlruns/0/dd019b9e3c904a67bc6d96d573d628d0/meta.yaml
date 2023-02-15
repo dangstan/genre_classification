@@ -1,0 +1,15 @@
+artifact_uri: file:///home/daniel/PycharmProjects/genre_classification/mlruns/0/dd019b9e3c904a67bc6d96d573d628d0/artifacts
+end_time: 1676332343765
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd019b9e3c904a67bc6d96d573d628d0
+run_name: peaceful-koi-146
+run_uuid: dd019b9e3c904a67bc6d96d573d628d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676332332753
+status: 3
+tags: []
+user_id: daniel
